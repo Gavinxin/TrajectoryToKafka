@@ -72,6 +72,8 @@ def main(xtype, group, key, data):
 
 
 
+
+
 if __name__ == '__main__':
     p1 = multiprocessing.Process(target=main, args=('p1', 'py_test', None, data1, ))
     p2 = multiprocessing.Process(target=main, args=('p2', 'py_test', None, data2, ))
